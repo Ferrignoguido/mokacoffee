@@ -1,0 +1,32 @@
+@mixin button-style($bg-color, $text-color, $border: none) {
+  width: 200px;
+  height: 36px;
+  background: $bg-color;
+  color: $text-color;
+  border: $border;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+@mixin section-heading($color: $color-black) {
+  text-align: center;
+  font-size: $font-lg;
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin card-shadow {
+  box-shadow: $shadow-card;
+  border-radius: $radius-md;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

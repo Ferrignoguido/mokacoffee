@@ -1,0 +1,46 @@
+#navbar {
+  background-color: #b2744c;
+
+  #logo {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+    color: black;
+  }
+
+  .navbar-nav {
+    margin-left: 50px;
+    text-decoration: none;
+  }
+
+  form {
+    buttom {
+      background: black;
+      color: white;
+      border: 1px solid white;
+    }
+  }
+
+  .nav-item {
+    .nav-link {
+      color: black;
+      margin-left: 10px;
+      font-weight: bold;
+      transition: 0.5s;
+
+      &:hover {
+        background: #f7f5f2;
+        border-radius: 5px;
+        color: black;
+      }
+
+      &:focus,
+      &:focus-visible,
+      &.active {
+        outline: none;
+        box-shadow: none;
+        color: black !important;
+      }
+    }
+  }
+}

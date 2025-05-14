@@ -1,0 +1,39 @@
+/* Botones generales: #about-btn, #Contacto-btn, botón navbar */
+
+#about-btn {
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #b2744c;
+  color: #b2744c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #b2744c;
+    color: white;
+  }
+}
+
+#Contacto-btn {
+  width: 200px;
+  height: 36px;
+  border: none;
+  background: #b2744c;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#navbar {
+  form {
+    buttom {
+      background: black;
+      color: white;
+      border: 1px solid white;
+    }
+  }
+}

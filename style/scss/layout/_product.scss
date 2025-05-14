@@ -1,0 +1,34 @@
+#product {
+  width: 100%;
+}
+
+.heading4 {
+  text-align: center;
+  color: #b2744c;
+  font-size: 30px;
+  padding-top: 100px;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+
+#container3 {
+  margin-top: 30px;
+}
+
+#Productos {
+  h3 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+  }
+
+  p {
+    color: #b2744c;
+    padding-top: 10px;
+
+    span {
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

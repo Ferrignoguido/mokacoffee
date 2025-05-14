@@ -1,0 +1,51 @@
+@import 'components/cards';
+.card {
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+
+  img {
+    border-radius: 10px;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+#about {
+  .card {
+    border-radius: 10px;
+
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+#top-cards {
+  .card {
+    @extend .card;
+  }
+}
+
+#Galeria {
+  .card {
+    @extend .card;
+  }
+}
+
+#menu {
+  .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+
+#Blogs {
+  .row {
+    .col-md-4 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+}

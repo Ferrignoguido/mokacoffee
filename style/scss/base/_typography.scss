@@ -1,0 +1,92 @@
+.heading,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6,
+#Menu h3,
+#Menu p,
+#Productos h3,
+#Productos p,
+#Blogs h5,
+#Blogs p,
+#Contacto h1,
+#Contacto p,
+#nosotros h3,
+#nosotros p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.heading,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading span,
+.heading2 span,
+.heading3,
+.heading4,
+.heading5 span,
+.heading6 span,
+#Menu h3,
+#Menu p,
+#Productos h3,
+#Productos p,
+#nosotros h3 {
+  color: #b2744c;
+}
+
+#Menu p span,
+#Productos p span {
+  float: right;
+  cursor: pointer;
+}
+
+#nosotros p {
+  font-size: 25px;
+}
+
+#Blogs p {
+  font-size: 20px;
+}
+
+#Contacto p {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+
+#Contacto h1 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.credits {
+  margin-top: 20px;
+  color: white;
+  text-shadow: 0 0 1px black;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.copyright span {
+  color: black;
+}

@@ -1,0 +1,30 @@
+// Variables
+@import 'themes/variables';
+
+// Utilidades 
+@import 'utils/mixins';
+@import 'utils/media-queries';
+
+// BASE
+@import "base/reset";
+@import "base/scrollbar";
+@import "base/typography";
+
+// LAYOUT
+@import "layout/navbar";
+@import "layout/home";
+@import "layout/about";
+@import "layout/top-cards";
+@import "layout/menu";
+@import "layout/product";
+@import "layout/gallery";
+@import "layout/contact";
+@import "layout/blogs";
+@import "layout/footer";
+@import "layout/arrow";
+
+// Componentes
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/stars';
+@import 'components/arrow';
